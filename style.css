@@ -1,0 +1,288 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital@0;1&family=Mogra&family=Pangolin&family=Yatra+One&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info{
+    font-family: 'Pangolin';
+    color: rgb(88, 87, 87);
+}
+
+/* desktop */
+@media (min-width: 1000px) {
+  .logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    justify-content: center;
+
+}
+
+.search-bar{
+    border-radius: 60px;
+    border: gray solid 1px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 60%;
+    margin-left:1.43%;
+    display: inline-block;
+    margin-bottom: 1px;
+    vertical-align: top; /* هم سطح کردن المنت ها*/
+    box-shadow: 5px 5px 5px rgb(179, 175, 175);
+    padding-left: 20px;
+
+}
+
+.search-gif{
+    width: 30px;
+    height: 30px;
+    margin-left:15%;
+    display: inline-block;
+    margin-top: 6px ;    
+}
+.query{
+    display: block;
+    margin-top: 50px;
+}
+.first-row{
+    display:flex;
+    flex-flow: row;
+    width: 64.3%px;
+    height: 100px;
+    margin-top: 50px;
+    justify-content: center;
+    /* margin-left: 25%; */
+    align-items: center;
+}
+
+.first{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:rgb(247, 244, 244);
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+.first img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-items:center;
+    justify-content: center;
+}
+
+.second{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:rgb(247, 244, 244);
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+.second img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.third{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:rgb(247, 244, 244);
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+.third img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+
+.second-row{
+  display:flex;
+  flex-flow: row;
+  width: 64.3%px;
+  height: 100px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+
+
+}
+}
+
+.first:hover{
+  background-color:rgb(223, 219, 219);
+
+}
+
+.second:hover{
+  background-color:rgb(223, 219, 219);
+
+}
+
+.third:hover{
+  background-color:rgb(223, 219, 219);
+
+}
+
+
+
+
+
+
+@media (max-width: 1000px) {
+  .logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    justify-content: center;
+
+}
+
+.search-bar{
+    border-radius: 60px;
+    border: gray solid 1px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 60%;
+    margin-left:1.43%;
+    display: inline-block;
+    margin-bottom: 1px;
+    vertical-align: top; /* هم سطح کردن المنت ها*/
+    box-shadow: 5px 5px 5px rgb(179, 175, 175);
+    padding-left: 20px;
+
+}
+
+.search-gif{
+    width: 30px;
+    height: 30px;
+    margin-left:13%;
+    display: inline-block;
+    margin-top: 6px ;    
+}
+.query{
+    display: block;
+    margin-top: 50px;
+}
+.first-row{
+    display:flex;
+    flex-flow: row;
+    width: 64.3%px;
+    height: 100px;
+    margin-top: 50px;
+    justify-content: center;
+    /* margin-left: 25%; */
+    align-items: center;
+}
+
+.first{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:rgb(247, 244, 244);
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+.first img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+
+.second{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:rgb(247, 244, 244);
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+.second img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.third{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:rgb(247, 244, 244);
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+.third img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+
+.second-row{
+  display:flex;
+  flex-flow: row;
+  width: 64.3%px;
+  height: 100px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+
+
+}
+}
